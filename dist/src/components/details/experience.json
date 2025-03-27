@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_details_experiences",
+    "info": {
+        "displayName": "teacher's details",
+        "icon": "crown",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "Experience": {
+            "type": "blocks",
+            "required": true
+        }
+    }
+}

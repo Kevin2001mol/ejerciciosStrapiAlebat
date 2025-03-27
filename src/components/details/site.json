@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_details_sites",
+  "info": {
+    "displayName": "event details",
+    "icon": "house",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Site": {
+      "type": "string"
+    }
+  }
+}

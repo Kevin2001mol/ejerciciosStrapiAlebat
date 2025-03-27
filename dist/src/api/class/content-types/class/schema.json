@@ -1,0 +1,43 @@
+{
+    "kind": "collectionType",
+    "collectionName": "classes",
+    "info": {
+        "singularName": "class",
+        "pluralName": "classes",
+        "displayName": "Class",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "Tittle": {
+            "type": "string",
+            "unique": true,
+            "required": true
+        },
+        "Description": {
+            "type": "blocks",
+            "required": true
+        },
+        "Start_date": {
+            "type": "datetime"
+        },
+        "Details": {
+            "type": "component",
+            "repeatable": false,
+            "component": "details.schedule"
+        },
+        "teachers": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::teacher.teacher",
+            "mappedBy": "class"
+        }
+    }
+}

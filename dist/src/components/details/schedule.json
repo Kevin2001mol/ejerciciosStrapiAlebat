@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_details_schedules",
+    "info": {
+        "displayName": "class details",
+        "icon": "archive",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "Schedule": {
+            "type": "time"
+        }
+    }
+}
