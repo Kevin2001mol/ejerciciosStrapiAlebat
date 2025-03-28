@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_dynamic_image_galleries",
+  "info": {
+    "displayName": "image gallery",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "carousel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

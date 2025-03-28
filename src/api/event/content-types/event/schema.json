@@ -35,6 +35,14 @@
       "relation": "oneToMany",
       "target": "api::teacher.teacher",
       "mappedBy": "event"
+    },
+    "event_dinamy_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic.media",
+        "dynamic.image-gallery",
+        "dynamic.header-url"
+      ]
     }
   }
 }

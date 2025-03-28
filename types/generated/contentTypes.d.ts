@@ -427,6 +427,9 @@ export interface ApiEventEvent extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     Description: Schema.Attribute.Blocks & Schema.Attribute.Required;
     Details: Schema.Attribute.Component<'details.site', false>;
+    event_dinamy_zone: Schema.Attribute.DynamicZone<
+      ['dynamic.media', 'dynamic.image-gallery', 'dynamic.header-url']
+    >;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::event.event'>;
     publishedAt: Schema.Attribute.DateTime;

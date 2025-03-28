@@ -9,6 +9,21 @@
   "attributes": {
     "Site": {
       "type": "string"
+    },
+    "Date": {
+      "type": "date",
+      "required": true,
+      "unique": true
+    },
+    "Schedule": {
+      "type": "time",
+      "required": true,
+      "unique": true
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": true,
+      "component": "event.theme"
     }
   }
 }

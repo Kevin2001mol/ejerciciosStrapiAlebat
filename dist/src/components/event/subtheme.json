@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_event_subthemes",
+    "info": {
+        "displayName": "subtheme",
+        "icon": "calendar"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

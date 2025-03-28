@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dynamic_header_urls",
+  "info": {
+    "displayName": "headerUrl",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "tittle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "\\b(?:https?|ftp):\\/\\/[^\\s]+"
+    }
+  }
+}

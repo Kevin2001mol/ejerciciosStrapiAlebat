@@ -9,6 +9,10 @@
   "attributes": {
     "Schedule": {
       "type": "time"
+    },
+    "classroom": {
+      "type": "string",
+      "required": true
     }
   }
 }

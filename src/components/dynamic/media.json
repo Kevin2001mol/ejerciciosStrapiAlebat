@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_dynamic_media",
+  "info": {
+    "displayName": "media",
+    "icon": "cast"
+  },
+  "options": {},
+  "attributes": {
+    "carousel": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "links": {
+      "type": "string",
+      "regex": "\\b(?:https?|ftp):\\/\\/[^\\s]+",
+      "unique": true
+    }
+  }
+}
