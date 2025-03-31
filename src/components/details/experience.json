@@ -7,13 +7,12 @@
   },
   "options": {},
   "attributes": {
-    "Experience": {
-      "type": "blocks",
-      "required": true
-    },
     "speciality": {
       "type": "string",
       "required": true
+    },
+    "experience": {
+      "type": "richtext"
     }
   }
 }

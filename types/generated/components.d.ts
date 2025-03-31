@@ -8,7 +8,7 @@ export interface DetailsExperience extends Struct.ComponentSchema {
     icon: 'crown';
   };
   attributes: {
-    Experience: Schema.Attribute.Blocks & Schema.Attribute.Required;
+    experience: Schema.Attribute.RichText;
     speciality: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
