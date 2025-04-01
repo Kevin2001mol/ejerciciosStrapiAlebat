@@ -40,6 +40,10 @@
       "relation": "manyToOne",
       "target": "api::event.event",
       "inversedBy": "teachers"
+    },
+    "TotalClasses": {
+      "type": "integer",
+      "min": 0
     }
   }
 }
